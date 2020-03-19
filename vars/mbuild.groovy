@@ -1,3 +1,3 @@
 def call(args) {
-sh "${tool 'M3'}/bin/mvn ${args}"
+sh "${tool 'maven3'}/bin/mvn ${args}"
 }
